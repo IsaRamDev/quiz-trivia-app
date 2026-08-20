@@ -110,7 +110,7 @@ export default function SetupScreen({ categories, onStart, onLoading, onError, p
             </div>
             <div>
               <label className="block text-xs font-semibold text-indigo-300 uppercase tracking-wider mb-2">
-                Seconds / Q
+                Seconds
               </label>
               <div className="grid grid-cols-2 gap-1.5">
                 {TIMES.map((t) => (
@@ -130,7 +130,7 @@ export default function SetupScreen({ categories, onStart, onLoading, onError, p
             disabled={!playerName.trim()}
             className="w-full py-4 rounded-2xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-bold text-lg hover:from-indigo-400 hover:to-purple-500 active:scale-[0.98] transition-all disabled:opacity-40 disabled:cursor-not-allowed shadow-lg shadow-indigo-500/30"
           >
-            Start Quiz 🚀
+            Start Quiz
           </button>
         </div>
       </div>
